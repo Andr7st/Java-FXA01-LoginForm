@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: rgb(182,182,182);
+}
+
+Button {
+    -fx-border-color: rgb(100,100,100);
+    -fx-background-color: rgb(240,240,240);
+    -fx-text-fill: rgb(22,22,22);
+    -fx-border-width: 1;
+    -fx-background-radius: 5 5;
+    -fx-border-radius: 5 5;
+}
+
+Button:hover {
+    -fx-border-color: rgb(240,240,240);
+    -fx-background-color: rgb(100,100,100);
+    -fx-text-fill: rgb(222,222,222);
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+TextField {
+    -fx-border-color: rgb(100,100,100);
+}
+
+PasswordField {
+    -fx-border-color: rgb(100,100,100);
+}
+
+/*
+
+Button:pressed {
+    -fx-background-color: rgb(102,102,102);
+    -fx-text-fill: rgb(220,220,220);
+}*/

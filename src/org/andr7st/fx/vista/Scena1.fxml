@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="280.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="org.andr7st.fx.controls.Scena1Control">
+   <children>
+      <Button fx:id="btnMensaje" layoutX="27.0" layoutY="216.0" mnemonicParsing="false" onAction="#mensajear" prefHeight="25.0" prefWidth="220.0" text="Click Me" />
+      <TextArea fx:id="taAreaTexto" layoutX="27.0" layoutY="43.0" prefHeight="136.0" prefWidth="461.0" promptText="Hello World !!!" />
+      <Label fx:id="lblAndr7st" layoutX="14.0" layoutY="14.0" text="By Andrés Segura" />
+      <Label fx:id="lblProjectID" layoutX="361.0" layoutY="220.0" text="Project ID: Java-FXA01" />
+   </children>
+</AnchorPane>
