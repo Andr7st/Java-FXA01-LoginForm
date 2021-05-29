@@ -13,9 +13,9 @@ public class AccionLogin {
 
         //// MD5 ya es "fácilmente" reversible: https://md5.gromweb.com/ yo usaría otra encriptación en otro caso.
         //   pex = expected password - uex = expected username
-        String pex = "dc788d7d68ac223be5e14a57980908ac", uex = "6eea9b7ef19179a06954edd0f6c05ceb";
+        String uex = "dc788d7d68ac223be5e14a57980908ac", pex = "5f4dcc3b5aa765d61d8327deb882cf99";
 
-        if((getHash(usuario,"MD5")).equals(pex) && (getHash(contrasena,"MD5")).equals(uex)) {
+        if((getHash(usuario,"MD5")).equals(uex) && (getHash(contrasena,"MD5")).equals(pex)) {
 
             // cambiar a la escena de ingreso
             new SceneController().switchSceneLogin(event);
